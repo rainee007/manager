@@ -1,0 +1,30 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.4.1",
+    "baseName": "manager",
+    "packageName": "com.qydcos.be",
+    "packageFolder": "com/qydcos/be",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "hibernateCache": "ehcache",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "547361874bd2a7b8adffb7497b230df16ce0e4d5",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "zh-cn",
+      "en"
+    ]
+  }
+}
